@@ -2,7 +2,12 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-var arr = [1,2,2,3,4,4,5,6,7,7,7,8,9]
-
+// Remove Duplicates
+var arr = [1,2,2,2,2,4,5,6,7,7,7,8,9]
 let arr1 = removeDuplicates(nums: &arr)
 print(arr1)
+
+// Remove Element
+arr = [1,2,2,2,2,4,5,6,7,7,7,8,9]
+let count = removeElement(&arr, 2)
+print(count)
