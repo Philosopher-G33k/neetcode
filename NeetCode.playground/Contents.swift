@@ -38,3 +38,15 @@ minStack.getMin()
 minStack.pop()
 minStack.top()
 minStack.getMin()
+
+
+// Reverse LinkedList -- EASY
+var node = ListNode(value: 10)
+var list = LinkedList(node: node)
+
+list.addNode(ListNode(value: 11))
+list.addNode(ListNode(value: 12))
+list.addNode(ListNode(value: 13))
+list.addNode(ListNode(value: 14))
+
+reverseLinkedList(list.getHead())
